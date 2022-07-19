@@ -1,6 +1,10 @@
+import { createSlice } from '@reduxjs/toolkit';
+
 import { legacy_createStore as createStore } from 'redux';
 
 const initialState = {counter: 0, showCounter: true};
+
+
 
 const counterReducer = (state = initialState, action) => {
 
