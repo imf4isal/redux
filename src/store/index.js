@@ -28,12 +28,12 @@ const initialAuthState = {isAuth: false};
 
 const authSlice = createSlice({
     name: 'auth',
-    initialAuthState,
-    reducer: {
-        loginState(state){ 
+    initialState: initialAuthState,
+    reducers: {
+        login(state){ 
             state.isAuth = true;
         },
-        logoutState(state) {
+        logout(state) {
             state.isAuth = false;
         }
     }
