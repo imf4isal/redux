@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const initialState = {showCart: false};
+const initialState = {showCart: true};
 const uiSlice = createSlice({
     name: 'cartui',
     initialState,
