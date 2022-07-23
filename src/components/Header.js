@@ -1,22 +1,21 @@
+import { NavLink } from 'react-router-dom';
 
 import classes from './Header.module.css';
 
-const Header = () => {
-
-
+const MainHeader = () => {
   return (
     <header className={classes.header}>
-      <h1>Redux Auth</h1>
       <nav>
         <ul>
           <li>
-            <a href='/'>My Products</a>
+            <NavLink activeClassName={classes.active} to='/welcome'>
+              Welcome
+            </NavLink>
           </li>
           <li>
-            <a href='/'>My Sales</a>
-          </li>
-          <li>
-            <button>Logout</button>
+            <NavLink activeClassName={classes.active} to='/products'>
+              Products
+            </NavLink>
           </li>
         </ul>
       </nav>
@@ -24,4 +23,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default MainHeader;
