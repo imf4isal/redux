@@ -1,17 +1,10 @@
-import { useSelector } from 'react-redux';
-import Cart from './components/Cart/Cart';
-import Layout from './components/Layout/Layout';
-import Products from './components/Shop/Products';
+import { Fragment } from 'react';
 
 function App() {
-
-  const show = useSelector(state => state.ui.showCart);
-
   return (
-    <Layout>
-      {show && <Cart /> }
-      <Products />
-    </Layout>
+    <Fragment>
+      <h3>Hey</h3>      
+    </Fragment>
   );
 }
 
