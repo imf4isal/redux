@@ -1,0 +1,2 @@
+(this["webpackJsonpredux-basics"]=this["webpackJsonpredux-basics"]||[]).push([[6],{51:function(e,s,c){"use strict";c.r(s);var n=c(1);s.default=function(){return Object(n.jsx)("div",{className:"centered",children:Object(n.jsx)("p",{children:"Page not found!"})})}}}]);
+//# sourceMappingURL=6.d0b2b45c.chunk.js.map
